@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Usage: ./level_3.py, then input your plaintext enclosed by quotes
+# Usage: ./level_3.py, then input your plaintext
 
 # hint:  github.com/SpiderLabs/cribdrag
 
