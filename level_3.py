@@ -4,7 +4,7 @@
 
 # hint:  github.com/SpiderLabs/cribdrag
 
-secret = input("Please enter your plaintext: ")
+secret = raw_input("Please enter your plaintext: ")
 
 def random(size=16):
   return open("/dev/urandom").read(size)

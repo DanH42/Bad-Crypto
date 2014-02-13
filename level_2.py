@@ -4,7 +4,7 @@
 
 # hint: the solution to this is surprisingly similar to level 0
 
-secret = input("Please enter your plaintext: ")
+secret = raw_input("Please enter your plaintext: ")
 
 output = ""
 

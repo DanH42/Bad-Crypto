@@ -4,7 +4,7 @@
 
 # hint: character by character encoding is a bad idea
 
-secret = input("Please enter your plaintext: ")
+secret = raw_input("Please enter your plaintext: ")
 
 def encrypt_char(char):
     char = ord(char)

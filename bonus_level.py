@@ -6,7 +6,7 @@ from time import sleep
 # Note:  I haven't made a ciphertext for this because the attack on it depends
 # a lot on the machine it was implemented on
 
-secret = input("Please enter your plaintext: ")
+secret = raw_input("Please enter your plaintext: ")
 
 for char in secret:
   log_counter = 0xFF
